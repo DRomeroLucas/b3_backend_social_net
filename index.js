@@ -7,9 +7,12 @@ import UserRoutes from "./routes/users.js"
 import PublicationRoutes from "./routes/publications.js"
 import FollowRoutes from "./routes/follows.js"
 
+
+// Mensaje bienvenida
+console.log("API Node en ejecución");
+
 // Mensaje de bienvenida de confirmación de conexión
 connection();
-
 
 // Crear el servidor Node
 const app = express();
