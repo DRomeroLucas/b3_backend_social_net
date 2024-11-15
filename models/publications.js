@@ -1,4 +1,4 @@
-import text from "body-parser/lib/types/text";
+import text from "body-parser/lib/types/text.js";
 import { Schema, model } from "mongoose";
 import mongoosePaginate from "mongoose-paginate-v2";
 

@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();    
 
 // Clave secreta
-const secret = process.env.SECRET_KEY;
+const secret = process.env.SECRET;
 
 // Método para generar tokens
 // Unix: Cuenta los segundos transcurridos desde el 1 de enero de 1970 hasta este momento
